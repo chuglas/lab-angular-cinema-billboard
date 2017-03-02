@@ -1,0 +1,10 @@
+<p>
+  my-home works!
+</p>
+
+
+<div *ngFor="let movie of movieList">
+  <p>{{ movie.title }}</p>
+</div>
+
+<button (click)="printMovieList()">Show Movies</button>
